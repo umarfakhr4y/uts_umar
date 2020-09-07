@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('template');
+    return view('form');
 });
 
 Route::get('/aboutus', function () {
@@ -24,3 +24,7 @@ Route::get('/aboutus', function () {
 Route::get('/foo', function () {
     return 'Hello World';
 });
+
+
+Route::get('/form', 'formController@index');
+Route::post('/proses', 'formController@proses');
