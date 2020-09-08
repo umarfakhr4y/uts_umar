@@ -27,4 +27,4 @@ Route::get('/foo', function () {
 
 
 Route::get('/form', 'formController@index');
-Route::post('/proses', 'formController@proses');
+Route::post('/proses', 'formController@kalkulator');

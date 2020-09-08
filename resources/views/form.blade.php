@@ -9,8 +9,14 @@
 <body>
     <form action="proses" method="post">
         @csrf
-        <input type="text" name="nama">
-        <input type="text" name="umur">
+        <input type="text" name="angka1" placeholder="angka1">
+        <select name="operasi" >
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value=":">:</option>
+            <option value="X">x</option>
+          </select>
+        <input type="text" name="angka2" placeholder="angka2">
         <input type="submit" value="Submit">
     </form>
 </body>

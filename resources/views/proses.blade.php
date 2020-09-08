@@ -6,7 +6,7 @@
     <title>Proses</title>
 </head>
 <body>
-    <h1>{{ $name }}</h1>
-    <h2>{{ $umur }}</h2>
+    <p>Hasilnya adalah {{$hasil}}</p>
+
 </body>
 </html>
