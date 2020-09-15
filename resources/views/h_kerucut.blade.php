@@ -19,10 +19,9 @@
                   UTS UMAR FAKHRY
                 </div>
                 <div class="card-body">
-                  <img class="mx-auto d-block " src="https://rumusbilangan.com/wp-content/uploads/2018/12/Gambar-Tabung.jpg" alt="">
                   <blockquote class="blockquote text-center">
-                    <p class="mb-0">V = Luas Alas x T</p>
-                    <footer class="blockquote-footer"><cite title="Source Title">Rumus volume Tabung</cite></footer>
+                    <p class="mb-0">V = 4/3 π r³</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">Rumus volume Kerucut</cite></footer>
                   </blockquote>
                 </div>
                 <div class="card-body">
@@ -31,6 +30,7 @@
                 </div>
                 <div class="card-footer">
                   <a class="btn btn-danger" href="{{url('/')}}">Kembali</a>
+                  <input type="submit" value="Submit" class="btn btn-success float-right">
                 </div>
               </div>
         </div>

@@ -19,19 +19,32 @@
                   UTS UMAR FAKHRY
                 </div>
                 <div class="card-body">
-                  <img class="mx-auto d-block " src="https://rumusbilangan.com/wp-content/uploads/2018/12/Gambar-Tabung.jpg" alt="">
                   <blockquote class="blockquote text-center">
-                    <p class="mb-0">V = Luas Alas x T</p>
-                    <footer class="blockquote-footer"><cite title="Source Title">Rumus volume Tabung</cite></footer>
+                    <p class="mb-0">V = 1/3 π r² T</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">Rumus volume Kerucut</cite></footer>
                   </blockquote>
                 </div>
                 <div class="card-body">
-                    <p>Hasilnya adalah {{$hasil}}</p>
-
+                  <form action="kerucuthasil" method="post">
+                    @csrf
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroup-sizing-default">Jari - Jari</span>
+                    </div>
+                    <input type="text" name="angka1" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" required>
+                  </div>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroup-sizing-default">Tinggi</span>
+                    </div>
+                    <input type="text" name="angka2" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" required>
+                  </div>
                 </div>
                 <div class="card-footer">
                   <a class="btn btn-danger" href="{{url('/')}}">Kembali</a>
+                  <input type="submit" value="Submit" class="btn btn-success float-right">
                 </div>
+              </form>
               </div>
         </div>
     </div>

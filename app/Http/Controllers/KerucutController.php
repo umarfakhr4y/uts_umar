@@ -4,14 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class TabungController extends Controller
+class KerucutController extends Controller
 {
-
     public function index()
     {
-        return view('v_tabung');
+        return view('v_kerucut');
     }
-
 
     public function hitung()
     {
@@ -19,7 +17,7 @@ class TabungController extends Controller
         $angka2 = request()->input('angka2');
         
         
-        $hasil = (22/7*($angka1*$angka1))*$angka2;
-            return view ("h_tabung", ['hasil' => $hasil]);
+        $hasil = 1/3*(22/7*(($angka1*$angka1)*$angka2));
+            return view ("h_kerucut", ['hasil' => $hasil]);
     }
 }

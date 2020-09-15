@@ -22,4 +22,10 @@ Route::get('/', function () {
 
 
 Route::get('/tabung', 'TabungController@index');
-Route::POST('/tabunghasil', 'TabungController@hitung');
+Route::post('/tabunghasil', 'TabungController@hitung');
+
+Route::get('/bola', 'BolaController@index');
+Route::post('/bolahasil', 'BolaController@hitung');
+
+Route::get('/kerucut', 'KerucutController@index');
+Route::post('/kerucuthasil', 'KerucutController@hitung');

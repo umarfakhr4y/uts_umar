@@ -20,8 +20,8 @@
                 </div>
                 <div class="card-body">
                   <a href="{{url('/tabung')}}" class="btn btn-primary mb-2 ">Volume Tabung</a> <br>
-                  <a class="btn btn-primary mb-2">Volume Bola</a> <br>
-                  <a class="btn btn-primary mb-2">Ruang Kerucut</a> <br>
+                  <a href="{{url('/bola')}}" class="btn btn-primary mb-2">Volume Bola</a> <br>
+                  <a href="{{url('/kerucut')}}" class="btn btn-primary mb-2">Ruang Kerucut</a> <br>
                 </div>
               </div>
         </div>
