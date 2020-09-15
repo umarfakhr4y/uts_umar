@@ -19,7 +19,7 @@
                   UTS UMAR FAKHRY
                 </div>
                 <div class="card-body">
-                  <img src="https://rumusbilangan.com/wp-content/uploads/2018/12/Gambar-Tabung.jpg" alt="">
+                  <img class="mx-auto d-block " src="https://rumusbilangan.com/wp-content/uploads/2018/12/Gambar-Tabung.jpg" alt="">
                   <blockquote class="blockquote text-center">
                     <p class="mb-0">V = Luas Alas x T</p>
                     <footer class="blockquote-footer"><cite title="Source Title">Rumus volume Tabung</cite></footer>
