@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,17 +16,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('form');
-});
-
-Route::get('/aboutus', function () {
-    return view('aboutus');
-});
-
-Route::get('/foo', function () {
-    return 'Hello World';
+    return view('home');
 });
 
 
-Route::get('/form', 'formController@index');
-Route::post('/proses', 'formController@kalkulator');
+
+Route::get('/tabung', 'App\Http\Controllers\TabungController@index');
+Route::post('/tabunghasil', 'App\Http\Controllers\TabungController@hitung');
