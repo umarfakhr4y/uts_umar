@@ -21,5 +21,5 @@ Route::get('/', function () {
 
 
 
-Route::get('/tabung', 'App\Http\Controllers\TabungController@index');
-Route::post('/tabunghasil', 'App\Http\Controllers\TabungController@hitung');
+Route::get('/tabung', 'TabungController@index');
+Route::POST('/tabunghasil', 'TabungController@hitung');

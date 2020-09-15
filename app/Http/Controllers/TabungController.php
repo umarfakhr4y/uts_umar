@@ -18,7 +18,7 @@ class tabungController extends Controller
         $angka1 = request()->input('angka1');
         $angka2 = request()->input('angka2');
         
-        $hasil = $angka1+$angka2;
+        $hasil = (22/7*($angka1*$angka1))*$angka2;
             return view ("h_tabung", ['hasil' => $hasil]);
     }
 }

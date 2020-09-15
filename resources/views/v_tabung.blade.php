@@ -26,9 +26,11 @@
                   </blockquote>
                 </div>
                 <div class="card-body">
+                  <form action="tabunghasil" method="post">
+                    @csrf
                   <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                      <span class="input-group-text" id="inputGroup-sizing-default">Luas Alas</span>
+                      <span class="input-group-text" id="inputGroup-sizing-default">Jari Jari</span>
                     </div>
                     <input type="text" name="angka1" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
                   </div>
@@ -38,12 +40,12 @@
                     </div>
                     <input type="text" name="angka2" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
                   </div>
-
                 </div>
                 <div class="card-footer">
                   <a class="btn btn-danger" href="{{url('/')}}">Kembali</a>
                   <input type="submit" value="Submit" class="btn btn-success float-right">
                 </div>
+              </form>
               </div>
         </div>
     </div>
